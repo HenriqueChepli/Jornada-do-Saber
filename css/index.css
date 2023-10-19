@@ -2,6 +2,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
 
+html{
+	scroll-behavior: smooth;
+  }
+
+*{
+	margin:0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+
 :root {
     --dark-color: #0D0D0D;
     --bright-color: #F2F2F2;
@@ -14,11 +24,6 @@
     --sexta-color: #f0be00;
     --azulnaval-color: #274360;
   }
-
-#logo-ifc {
-    width: 30px;
-    height: 30px;
-}
 
 #indexbunner {
     user-select: none;
