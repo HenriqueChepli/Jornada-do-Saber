@@ -259,19 +259,19 @@ a{
 	align-items: center;
 	text-align: center;
 	color: var(--bright-color);
-	height: 400px;
+	height: 40vh;
 	border-bottom: 1px solid var(--bright-color);
 	width: 100%;
   }
   
   #titulo-bottom{
 	font-size: 35px;
-	margin: 50px 0 45px 0;
+	margin: 2.5vh 0 3vh 0;
   }
   
   .par-bottom {
 	color: var(--bright-color);
-	margin-top: 15px;
+	margin-top: 2vh;
 	padding: 2px;
 	font-size: 25px;
 	border-radius: 2px;
@@ -285,17 +285,17 @@ a{
 
   #bottom-footer{
 	display: flex;
-	height: 325px;
+	height: 40vh;
 	width: 100%;
   }
 
   #subir{
 	width: 15vw;
-	height: 325px;
+	height: 40vh;
   }
 
   #btn-subir{
-    margin-top: 225px;
+    margin-top: 30vh;
 	padding: 10px;
 	border-radius: 50%;
 	background-color: var(--bright-color);
@@ -312,41 +312,41 @@ a{
 	align-items: center;
 	justify-content: center;
 	width: 15vw;
-	height: 325px;
+	height: 40vh;
   }
 
   #logo-ifc{
-    width: 180px;
-    height: 200px;
+    width: 21.5vw;
+    height: 27vh;
   }
 
   .bottom-materia{
-	width: 200px;
+	width: 30vh;
   }
 
   .prin-social{
-	width: 115px;
+	width: 15vh;
   }
 
   #principal{
 	width: 70vw;
-	height: 325px;
+	height: 40vh;
   }
 
   .prin-info{
 	display: flex;
 	text-align: center;
 	justify-content: center;
-	padding-top: 50px;
+	padding-top: 4vh;
 	gap: 25px;
 	color: var(--bright-color);
 	width: 100%;
-	height: 75px;
+	height: 10vh;
   }
 
   .icon-social{
-	width: 50px;
-	height: 50px;
+	width: 3.5vw;
+	height: 7vh;
 	background-color: var(--bright-color);
 	border-radius: 50%;
 	padding: 5px;
