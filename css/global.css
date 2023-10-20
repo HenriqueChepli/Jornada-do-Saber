@@ -227,12 +227,14 @@ a{
 	transition: all 0.3s ease;
 }
 
-#participants {
-	left: -90px;
+#settings {
+	left: -100px;
 }
 
-#settings {
-	left: -200px;
+#img-config{
+	position: relative;
+	top: 7;
+	transition: .55s;
 }
 
 #img-config:hover {
