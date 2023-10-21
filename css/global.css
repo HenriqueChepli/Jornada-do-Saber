@@ -8,7 +8,7 @@ html{
 
 :root {
   --dark-color: #0D0D0D;
-  --bright-color: #F2F2F2;
+  --bright-color: #FFF;
   --cinzaescuro-color: #212121;
   --azulnaval-color: #274360;
   --rosaclaro-color: #e91e63;
@@ -135,9 +135,8 @@ a{
 }
 #header .menu > .menu-item > .sub-menu{
 	box-shadow: 0 0 10px rgba(0,0,0,0.2);
-	width: 220px;
+	width: 200px;
 	position: absolute;
-	left:0;
 	top:100%;
 	background-color: var(--bright-color);
 	padding: 10px 0;
@@ -228,6 +227,7 @@ a{
 }
 
 #settings {
+	position: relative;
 	left: -100px;
 }
 
@@ -240,6 +240,14 @@ a{
 #img-config:hover {
 	rotate: 360deg;
 	transition: all 0.7s ease-in-out;
+}
+
+#settings{
+	left: -12vw;
+}
+
+#aprenda{
+	left: -2vw;
 }
   
   /* "Rodapé" Sessão */
@@ -375,6 +383,12 @@ a{
   }
 
 /*Responsividade do Header*/
+
+  @media(max-width: 1300px){
+	#settings{
+		left: -15vw;
+	}
+  }
 
   @media(max-width: 991px){
 	#participants {
