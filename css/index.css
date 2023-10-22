@@ -90,9 +90,10 @@ html{
 
 @media(max-width:1500px) {
 	.indexImg {
-		left: 70vh;
-		bottom: -10vh;
+		left: 65vh;
+		bottom: 23vh;
 		width: 55vw;
+		height: 85vh;
 	}
 
 	#box-tittle {
@@ -103,19 +104,19 @@ html{
 
 @media(max-width:1350px) {
 	.indexImg {
-		left: 50vh;
-		bottom: -10vh;
-		height: 75vh;
-		width: 65vw;
+		left: 55vh;
+		bottom: 20vh;
+		width: 60vw;
+		height: 80vh;
 	}
 }
 
 @media(max-width:1250px) {
 	.indexImg {
-		left: 45vh;
-		bottom: -15vh;
+		left: 50vh;
+		bottom: 20vh;
+		width: 60vw;
 		height: 75vh;
-		width: 65vw;
 	}
 
 	#box-tittle {
@@ -147,12 +148,21 @@ html{
 	}
 }
 
+@media (max-width:1180px) {
+	.indexImg {
+		left: 45vh;
+		bottom: 15vh;
+		width: 65vw;
+		height: 70vh;
+	}
+}
+
 @media(max-width:1000px) {
 	.indexImg {
-		left: 23vh;
-		bottom: -20vh;
-		height: 65vh;
-		width: 80vw;
+		left: 27vh;
+		bottom: -10vh;
+		height: 75vh;
+		width: 75vw;
 	}
 
 	#box-tittle {
@@ -183,10 +193,10 @@ html{
 
 @media(max-width:830px){
 	.indexImg{
-		left: 1vh;
+		left: 13vh;
 		bottom: -20vh;
 		height: 70vh;
-		width: 100vw;
+		width: 85vw;
 	}
 
 	.subtitle {
@@ -218,10 +228,10 @@ html{
 
 @media(max-width:700px){
 	.indexImg{
-		left: -5vh;
+		left: -0.5vh;
 		bottom: -20vh;
 		height: 70vh;
-		width: 120vw;
+		width: 100vw;
 	}
 
 	.title {
