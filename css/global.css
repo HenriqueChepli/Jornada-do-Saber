@@ -382,15 +382,45 @@ a{
 	color: var(--rosaclaro-color);
   }
 
-/*Responsividade do Header*/
+  /*Responsividade*/
 
-  @media(max-width: 1300px){
+ @media (max-width:1600px) {
+	.icon-social{
+		width: 3.5vw;
+		height: 6vh;
+		background-color: var(--bright-color);
+		border-radius: 50%;
+		padding: 5px;
+		transition: .55s;
+	  }
+ }
+
+ @media (max-width:1350px) {
+	.icon-social{
+		height: 5vh;
+	  }
+ }
+
+  @media(max-width: 1170px) {
+	.icon-social{
+		width: 4.5vw;
+		height: 6vh;
+	  }
+  }
+
+  @media(max-width: 1300px) {
 	#settings{
 		left: -15vw;
 	}
   }
 
   @media(max-width: 991px){
+
+	.icon-social{
+		width: 5vw;
+		height: 5vh;
+	  }
+
 	#participants {
 		left: 0;
 	}
@@ -474,4 +504,96 @@ a{
 		right: 0;
 	}
 	
+}
+
+@media (max-width: 950px) {
+	#img-ifc{
+		display: none;
+	  }
+	  #bottom-footer{
+		display: flex;
+		height: 40vh;
+		width: 100%;
+		justify-content: center;
+	  }
+
+	  #subir{
+		width: 6vw;
+		height: 40vh;
+		transition: .55s;
+		position: fixed;
+	  }
+	
+	  #btn-subir{
+		margin-top: 30vh;
+		padding: 10px;
+		border-radius: 50%;
+		background-color: var(--bright-color);
+		transition: .55s;
+	  }
+
+	  .icon-social{
+		width: 8vw;
+		height: 4vh;
+	  }
+
+	  .nome-social{
+		color: var(--bright-color);
+		transition: .55s;
+		font-size: 1.7vh;
+	  }
+
+}
+
+@media (max-width:700px) {
+	.icon-social{
+		width: 8.5vw;
+		height: 5vh;
+	  }
+
+	  #infoID {
+		width: 5vh;
+	  }
+}
+
+@media (max-width:350px) {
+	#header{
+		font-family: 'Raleway', sans-serif;
+		line-height: 1.5;
+		font-weight: 400;
+		width: 100%;
+		left:0;
+		top:0;
+		z-index: 99;
+		padding: 8px;
+	}
+	.header-main{
+		background-color: var(--bright-color);
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 5px 0;
+		border-radius: 4px;
+	}
+	
+	#logo {
+		padding-top: 10px;
+		width: 300px;
+		text-decoration: none;
+		color: var(--dark-color);
+	  }
+
+	  #logo h1 {
+		font-size: 3.5vh;
+	  }
+	
+	.titulo{
+		display: flex;
+		align-items: center;;
+	}
+
+	.container{
+		max-width: 100%;
+		margin: 0;
+	}
 }

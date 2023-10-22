@@ -20,11 +20,19 @@ html{
     --rosaclaro-color: #e91e63;
   }
 
+  #main {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
 #index {
     user-select: none;
     height: calc(100vh - 103px);
     width: 100%;
     padding: 15vh 0 0 0;
+	position: relative;
+	display: flex;
 }
 
 .title {
@@ -36,49 +44,291 @@ html{
 	user-select: none;
 }
 
-#title1 {
-	margin-top: 2vh;
-}
-
 .indexImg {
 	width: 43vw;
-	position: fixed;
-	bottom: 0;
-	right: 13vw;
+	left: 80vh;
+	bottom: 18vh;
+	position: relative;
 	z-index: -10;
 	opacity: 85%;
 }
 
+#box-tittle {
+	width: 100vh;
+	height: 35vh;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+}
+
+#box-titleMain {
+	height: 80%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+#box-titleSub {
+	height: 20%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
 .subtitle {
-    width: 37vw;
+    width: 100%;
 	font-size: 1.5vw;
 	letter-spacing: 0.3vw;
 	margin-left: 10vw;
 	color: var(--dark-color);
-    background-color: var(--bright-color);
     border-radius: 10px;
 	font-weight: 300;
 	user-select: none;
 }
 
-@media(max-width:800px){
-	.indexImg{
-		width: 60vw;
+@media(max-width:1500px) {
+	.indexImg {
+		left: 70vh;
+		bottom: -10vh;
+		width: 55vw;
+	}
+
+	#box-tittle {
+		width: 100vh;
+		height: 25vh;
 	}
 }
 
-@media(max-width:540px) {
-	.title {
-		font-size: 6.5vh;
+@media(max-width:1350px) {
+	.indexImg {
+		left: 50vh;
+		bottom: -10vh;
+		height: 75vh;
+		width: 65vw;
+	}
+}
+
+@media(max-width:1250px) {
+	.indexImg {
+		left: 45vh;
+		bottom: -15vh;
+		height: 75vh;
+		width: 65vw;
 	}
 
+	#box-tittle {
+		width: 100vh;
+		height: 23vh;
+	}
+
+	#box-tittle {
+		width: 100vh;
+		height: 22vh;
+	}
+
+	#box-titleMain {
+		height: 70%;
+	}
+
+	
+	#box-titleSub {
+		height: 30%;
+		justify-content: space-evenly;
+	}
+
+	.title {
+		font-size: 7vh;
+	}
+
+	.subtitle {
+		font-size: 1.8vh;
+	}
+}
+
+@media(max-width:1000px) {
 	.indexImg {
+		left: 23vh;
+		bottom: -20vh;
+		height: 65vh;
+		width: 80vw;
+	}
+
+	#box-tittle {
+		width: 100vh;
+		height: 22vh;
+	}
+
+	#box-titleMain {
+		height: 70%;
+	}
+
+	
+	#box-titleSub {
+		height: 30%;
+		justify-content: space-evenly;
+	}
+
+	.title {
+		font-size: 7vh;
+	}
+
+	.subtitle {
+		font-size: 1.8vh;
+	}
+
+	
+}
+
+@media(max-width:830px){
+	.indexImg{
+		left: 1vh;
+		bottom: -20vh;
+		height: 70vh;
 		width: 100vw;
-		right: 0vw;
+	}
+
+	.subtitle {
+		width: 65vw;
+		font-size: 3vw;
+	}
+
+	#box-tittle {
+		width: 100vh;
+		height: 25vh;
+	}
+
+	.title {
+		margin-left: 4vw;
+		font-size: 6vh;
+	}
+
+	.subtitle {
+		margin-left: 4vw;
+		font-size: 1.8vh;
+		width: 100%;
+	}
+
+	#index {
+		padding-top: 8vh;
+	}
+	
+}
+
+@media(max-width:700px){
+	.indexImg{
+		left: -5vh;
+		bottom: -20vh;
+		height: 70vh;
+		width: 120vw;
+	}
+
+	.title {
+		margin-left: 4vw;
+		font-size: 6vh;
+	}
+
+	.subtitle {
+		margin-left: 4vw;
+		font-size: 1.8vh;
+	}
+	
+}
+
+@media(max-width:540px) {
+
+	.indexImg {
+		left: 0;
+		bottom: -25vh;
+		height: 60vh;
+		width: 100vw;
 	}
 
     .subtitle {
 		width: 65vw;
 		font-size: 3vw;
 	}
+
+	#box-tittle {
+		width: 100vh;
+		height: 18vh;
+	}
+
+	.title {
+		margin-left: 4vw;
+		font-size: 5vh;
+	}
+
+	.subtitle {
+		margin-left: 4vw;
+		font-size: 1.5vh;
+		width: 100%;
+	}
+
 }
+
+
+@media(max-width:430px) {
+
+	.indexImg {
+		left: -5vh;
+		bottom: -20vh;
+		height: 60vh;
+		width: 125vw;
+	}
+
+    .subtitle {
+		width: 65vw;
+		font-size: 3vw;
+	}
+
+	#box-tittle {
+		width: 100vh;
+		height: 18vh;
+	}
+
+	.title {
+		margin-left: 4vw;
+		font-size: 4.5vh;
+	}
+
+	.subtitle {
+		margin-left: 4vw;
+		font-size: 1.5vh;
+		width: 100%;
+	}
+}
+
+@media(max-width:330px) {
+
+	.indexImg {
+		left: -4vh;
+		bottom: -18vh;
+		height: 55vh;
+		width: 120vw;
+	}
+
+	.title {
+		font-size: 5.5vh;
+		margin-left: 4vw;
+	}
+
+	.subtitle {
+		margin-left: 4vw;
+		font-size: 3.5vw;
+		width: 100%;
+	}
+
+	#box-titleMain {
+		height: 60%;
+	}
+
+	
+	#box-titleSub {
+		height: 40%;
+		justify-content: space-evenly;
+	}
+}
+
+

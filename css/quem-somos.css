@@ -142,3 +142,7 @@ body.hidden-scrolling{
 	text-align: center;
 	border-top: 2px solid var(--rosaclaro-color);
 }
+
+@media(max-width:1650px) {
+
+}
