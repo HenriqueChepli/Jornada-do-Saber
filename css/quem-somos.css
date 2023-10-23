@@ -12,6 +12,7 @@ html{
   --cinzaescuro-color: #212121;
   --azulnaval-color: #274360;
   --rosaclaro-color: #e91e63;
+  --cinzinha-color: #252525;
 }
 
 *{
@@ -47,7 +48,7 @@ body.hidden-scrolling{
 	height: 150px;
 	text-align: center;
 	justify-content: center;
-	background-color: var(--dark-color);
+	background-color: var(--cinzinha-color);
 }
 
 #nav{
@@ -89,7 +90,7 @@ body.hidden-scrolling{
 #index {
     width: 100vw;
     height: calc(100vh - 150px);
-	background-color: var(--dark-color);
+	background-color: var(--cinzinha-color);
 }
 
 .title{
