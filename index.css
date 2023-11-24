@@ -1,0 +1,348 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+
+html{
+	scroll-behavior: smooth;
+  }
+
+*{
+	margin:0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    --dark-color: #0D0D0D;
+    --bright-color: #FFF;
+    --cinzaescuro-color: #212121;
+    --azulnaval-color: #274360;
+    --rosaclaro-color: #e91e63;
+  }
+
+  #main {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+#index {
+    user-select: none;
+    height: calc(100vh - 103px);
+    width: 100%;
+    padding: 15vh 0 0 0;
+	position: relative;
+	display: flex;
+}
+
+.title {
+	letter-spacing: 3.5vw;
+	font-weight: 700;
+	margin-left: 10vw;
+	font-size: 6vw;
+	color: var(--text-color);
+	user-select: none;
+}
+
+.indexImg {
+	width: 43vw;
+	left: 80vh;
+	bottom: 18vh;
+	position: relative;
+	z-index: -10;
+	opacity: 85%;
+}
+
+#box-tittle {
+	width: 100vh;
+	height: 35vh;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+}
+
+#box-titleMain {
+	height: 80%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+#box-titleSub {
+	height: 20%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.subtitle {
+    width: 100%;
+	font-size: 1.5vw;
+	letter-spacing: 0.3vw;
+	margin-left: 10vw;
+	color: var(--dark-color);
+    border-radius: 10px;
+	font-weight: 300;
+	user-select: none;
+}
+
+#title1{
+	background-color: #FFF;
+}
+
+@media(max-width:1500px) {
+	.indexImg {
+		left: 65vh;
+		bottom: 23vh;
+		width: 55vw;
+		height: 85vh;
+	}
+
+	#box-tittle {
+		width: 100vh;
+		height: 25vh;
+	}
+}
+
+@media(max-width:1350px) {
+	.indexImg {
+		left: 55vh;
+		bottom: 20vh;
+		width: 60vw;
+		height: 80vh;
+	}
+}
+
+@media(max-width:1250px) {
+	.indexImg {
+		left: 50vh;
+		bottom: 20vh;
+		width: 60vw;
+		height: 75vh;
+	}
+
+	#box-tittle {
+		width: 100vh;
+		height: 23vh;
+	}
+
+	#box-tittle {
+		width: 100vh;
+		height: 22vh;
+	}
+
+	#box-titleMain {
+		height: 70%;
+	}
+
+	
+	#box-titleSub {
+		height: 30%;
+		justify-content: space-evenly;
+	}
+
+	.title {
+		font-size: 7vh;
+	}
+
+	.subtitle {
+		font-size: 1.8vh;
+	}
+}
+
+@media (max-width:1180px) {
+	.indexImg {
+		left: 45vh;
+		bottom: 15vh;
+		width: 65vw;
+		height: 70vh;
+	}
+}
+
+@media(max-width:1000px) {
+	.indexImg {
+		left: 27vh;
+		bottom: -10vh;
+		height: 75vh;
+		width: 75vw;
+	}
+
+	#box-tittle {
+		width: 100vh;
+		height: 22vh;
+	}
+
+	#box-titleMain {
+		height: 70%;
+	}
+
+	
+	#box-titleSub {
+		height: 30%;
+		justify-content: space-evenly;
+	}
+
+	.title {
+		font-size: 7vh;
+	}
+
+	.subtitle {
+		font-size: 1.8vh;
+	}
+
+	
+}
+
+@media(max-width:830px){
+	.indexImg{
+		left: 13vh;
+		bottom: -20vh;
+		height: 70vh;
+		width: 85vw;
+	}
+
+	.subtitle {
+		width: 65vw;
+		font-size: 3vw;
+	}
+
+	#box-tittle {
+		width: 100vh;
+		height: 25vh;
+	}
+
+	.title {
+		margin-left: 4vw;
+		font-size: 6vh;
+	}
+
+	.subtitle {
+		margin-left: 4vw;
+		font-size: 1.8vh;
+		width: 100%;
+	}
+
+	#index {
+		padding-top: 8vh;
+	}
+	
+}
+
+@media(max-width:700px){
+	.indexImg{
+		left: -0.5vh;
+		bottom: -20vh;
+		height: 70vh;
+		width: 100vw;
+	}
+
+	.title {
+		margin-left: 4vw;
+		font-size: 6vh;
+	}
+
+	.subtitle {
+		margin-left: 4vw;
+		font-size: 1.8vh;
+	}
+	
+}
+
+@media(max-width:540px) {
+
+	.indexImg {
+		left: 0;
+		bottom: -25vh;
+		height: 60vh;
+		width: 100vw;
+	}
+
+    .subtitle {
+		width: 65vw;
+		font-size: 3vw;
+	}
+
+	#box-tittle {
+		width: 100vh;
+		height: 18vh;
+	}
+
+	.title {
+		margin-left: 4vw;
+		font-size: 5vh;
+	}
+
+	.subtitle {
+		margin-left: 4vw;
+		font-size: 1.5vh;
+		width: 100%;
+	}
+
+}
+
+
+@media(max-width:430px) {
+
+	.indexImg {
+		left: -5vh;
+		bottom: -20vh;
+		height: 60vh;
+		width: 125vw;
+	}
+
+    .subtitle {
+		width: 65vw;
+		font-size: 3vw;
+	}
+
+	#box-tittle {
+		width: 100vh;
+		height: 18vh;
+	}
+
+	.title {
+		margin-left: 4vw;
+		font-size: 4.5vh;
+	}
+
+	.subtitle {
+		margin-left: 4vw;
+		font-size: 1.5vh;
+		width: 100%;
+	}
+}
+
+@media(max-width:330px) {
+
+	.indexImg {
+		left: -4vh;
+		bottom: -18vh;
+		height: 55vh;
+		width: 120vw;
+	}
+
+	.title {
+		font-size: 5.5vh;
+		margin-left: 4vw;
+	}
+
+	.subtitle {
+		margin-left: 4vw;
+		font-size: 3.5vw;
+		width: 100%;
+	}
+
+	#box-titleMain {
+		height: 60%;
+	}
+
+	
+	#box-titleSub {
+		height: 40%;
+		justify-content: space-evenly;
+	}
+}
+
+
