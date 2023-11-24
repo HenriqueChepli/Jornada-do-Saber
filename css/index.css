@@ -88,6 +88,10 @@ html{
 	user-select: none;
 }
 
+#title1{
+	background-color: #FFF;
+}
+
 @media(max-width:1500px) {
 	.indexImg {
 		left: 65vh;

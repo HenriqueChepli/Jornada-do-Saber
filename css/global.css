@@ -233,6 +233,13 @@ a{
 	left: -10vw;
 }
 
+#settings-title{
+	display: none;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 600;
+}
+
 #img-config{
 	position: relative;
 	top: 7;
@@ -267,9 +274,15 @@ a{
 	width: 100%;
   }
   
-  #titulo-bottom{
+  .titulo-bottom{
 	font-size: 35px;
 	margin: 2.5vh 0 3vh 0;
+	transition: .55s;
+  }
+
+  .titulo-bottom:hover{
+	transition: all 0.5s ease-in-out;
+	color: var(--rosaclaro-color);
   }
   
   .par-bottom {
@@ -321,7 +334,6 @@ a{
   }
 
   #logo-ifc{
-    width: 21.5vw;
     height: 27vh;
   }
 
@@ -347,6 +359,12 @@ a{
 	color: var(--bright-color);
 	width: 100%;
 	margin: 1vh 1vw;
+	transition: .55s;
+  }
+
+  .prin-info:hover{
+	transition: all 0.5s ease-in-out;
+	color: var(--rosaclaro-color);
   }
 
   #iconMedia {
@@ -354,8 +372,8 @@ a{
   }
 
   .icon-social{
-	width: 50px;
-	height: 50px;
+	width: 45px;
+	height: 45px;
 	background-color: var(--bright-color);
 	border-radius: 50%;
 	padding: 5px;
@@ -387,17 +405,14 @@ a{
   }
 
   @media(max-width: 991px){
-
-	.icon-social{
-		width: 5vw;
-		height: 5vh;
+	.bottom-materia{
+		width: auto;
 	  }
-
-	#participants {
-		left: 0;
-	}
 	#settings{
 		left: 0;
+	}
+	#settings-title{
+		display: block;
 	}
 	#header .menu-overlay.active{
 	visibility: visible;
@@ -426,16 +441,12 @@ a{
 	}
 	#header .menu > .menu-item-has-children > a{
 		display: flex;
-		justify-content: space-between;
+		justify-content: start;
 		align-items: center;
 	}
 	#header .menu > .menu-item > a{
 		color: var(--dark-color);
-		padding: 12px 15px;
-		border-bottom: 1px solid var(--cinzaescuro-color);
-	}
-	#header .menu > .menu-item:first-child > a{
-	    border-top: 1px solid var(--cinzaescuro-color);	
+		padding: 20px 15px;
 	}
 	#header .menu > .menu-item > a .plus:before, 
 	#header .menu > .menu-item > a .plus:after{
@@ -462,7 +473,7 @@ a{
 	#header .menu > .menu-item > .sub-menu > .menu-item > a{
 		padding: 12px 45px;
 		color: var(--cinzaescuro-color);
-		border-bottom: 1px solid var(--cinzaescuro-color);
+		border-bottom: 1px solid var(--bright-color);
 	}
 	#header .close-nav-menu,
 	#header .open-nav-menu{
@@ -475,10 +486,6 @@ a{
 		bottom: 0;
 		right: 0;
 	}
-	
-}
-
-@media (max-width: 950px) {
 	#img-ifc{
 		display: none;
 	  }
@@ -503,18 +510,11 @@ a{
 		background-color: var(--bright-color);
 		transition: .55s;
 	  }
-
-	  .icon-social{
-		width: 5.5vw;
-		height: 5vh;
-	  }
-
 	  .nome-social{
 		color: var(--bright-color);
 		transition: .55s;
 		font-size: 1.7vh;
 	  }
-
 }
 
 @media (max-width:700px) {
