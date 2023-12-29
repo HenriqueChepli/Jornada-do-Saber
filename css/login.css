@@ -14,7 +14,7 @@
     text-align: center;
     justify-content: start;
     padding: 4vh 2vw;
-    background: linear-gradient(to right, #0D0D0D, #212121);
+    background: linear-gradient(to right, #0D0D0D, #282828, #212121);
   }
   
   #nav{
@@ -32,7 +32,7 @@
   }
 
   #index{
-    background: linear-gradient(to right, #0D0D0D, #212121);
+    background: linear-gradient(to right, #0D0D0D, #282828, #212121);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -234,7 +234,7 @@
 
 @media(max-width:900px){
     #index{
-        background: linear-gradient(to right, #0D0D0D, #212121);
+        background: linear-gradient(to right, #0D0D0D, #282828, #212121);
         display: flex;
         align-items: center;
         justify-content: center;
