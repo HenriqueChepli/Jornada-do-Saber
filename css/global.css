@@ -97,6 +97,7 @@ a{
 	gap: 20px;
 	padding: 0 20px;
 	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
 .nav ul {
@@ -291,7 +292,7 @@ a{
   }
 
   .bottom-materia{
-	width: 25vh;
+	width: 200px;
   }
 
   .prin-social{
@@ -374,14 +375,54 @@ a{
 		transition: .55s;
 		font-size: 1.7vh;
 	  }
+	  #bottom-footer{
+		display: flex;
+		width: 100%;
+		justify-content: center;
+	  }
+	  .nav{
+		height: auto;
+		width: 100px;
+		background-color: #e7e7e7;
+		position: fixed;
+		right: 0;
+		top: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+		padding: 10px 0;
+		margin: 20px 40px 0 0 ;
+		border-radius: 10px;
+		flex-direction: column;
+	}
+	.nav ul li.active a .icon {
+		transform: translateY(-22px);
+		color: #0D0D0D;
+	}
 }
 
-@media (max-width:700px) {
+@media (max-width:740px) {
 	  #infoID {
 		width: 5vh;
 	  }
 
+	  #info-bottom {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		text-align: center;
+		color: var(--bright-color);
+		padding: 5vh 5vw;
+		border-bottom: 1px solid var(--bright-color);
+		width: 100%;
+		flex-direction: column;
+		gap: 30px;
+	  }
 
+	  .bottom-materia{
+		width: auto;
+	  }
 }
 
 
