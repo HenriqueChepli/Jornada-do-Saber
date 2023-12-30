@@ -382,7 +382,7 @@ a{
 	  }
 	  .nav{
 		height: auto;
-		width: 100px;
+		width: auto;
 		background-color: #e7e7e7;
 		position: fixed;
 		right: 0;
@@ -399,6 +399,9 @@ a{
 	.nav ul li.active a .icon {
 		transform: translateY(-22px);
 		color: #0D0D0D;
+	}
+		.nav ul li a .text {
+		font-size: .60em;
 	}
 }
 
@@ -423,6 +426,26 @@ a{
 	  .bottom-materia{
 		width: auto;
 	  }
+	  	  .nav{
+		height: auto;
+		width: auto;
+		background-color: #e7e7e7;
+		position: fixed;
+		right: 0;
+		top: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		padding: 5px 0 0 0;
+		margin: 20px 40px 0 0 ;
+		border-radius: 10px;
+		flex-direction: column;
+	}
+	.nav ul li a .text {
+		font-size: .58em;
+	}
+	  
 }
 
 
@@ -430,6 +453,7 @@ a{
 	  #infoID {
 		width: 3vh;
 	  }
+
 
 }
 
