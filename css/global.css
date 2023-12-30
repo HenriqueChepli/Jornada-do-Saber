@@ -489,13 +489,6 @@ a{
 	#img-ifc{
 		display: none;
 	  }
-	  #bottom-footer{
-		display: flex;
-		height: 40vh;
-		width: 100%;
-		justify-content: center;
-	  }
-
 	  #subir{
 		width: 6vw;
 		height: 40vh;
@@ -522,29 +515,6 @@ a{
 		width: 5vh;
 	  }
 
-	  #info-bottom {
-		display: flex;
-		justify-content: space-between;
-		flex-direction: column;
-		align-items: center;
-		text-align: center;
-		color: var(--bright-color);
-		height: 120vh;
-		border-bottom: 1px solid var(--bright-color);
-		width: 100%;
-		padding-bottom: 10vh;
-	  }
-
-	  #bottom {
-		display: flex;
-		justify-content: space-around;
-		flex-direction: row;
-		background-color: var(--cinzaescuro-color);
-		padding: 75px 50px 0 50px;
-		width: 100%;
-		height: 180vh;
-		flex-wrap: wrap;
-	  }
 
 }
 
