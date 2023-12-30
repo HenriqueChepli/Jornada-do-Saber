@@ -23,42 +23,43 @@
                   <h1>Jornada do Saber</h1>
                </a>
             </div>
-            <div class="open-nav-menu">
-               <span></span>
-            </div>
-            <div class="menu-overlay">
-            </div>
-            <!-- navigation menu start -->
-            <nav class="nav-menu">
-               <div class="close-nav-menu">
-                  <img src="img/close.svg" alt="close">
-               </div>
-               <ul class="menu">
-                  <li class="menu-item menu-item-has-children">
-                     <a href="#" data-toggle="sub-menu">Aprenda Aqui<i class="plus"></i></a>
-                     <ul class="sub-menu">
-                        <li class="menu-item"><a href="/">Matemática</a></li>
-                        <li class="menu-item"><a href="/">Física</a></li>
-                        <li class="menu-item"><a href="/">Química</a></li>
-                     </ul>
-                  </li>
-                  <li class="menu-item menu-item-has-children">
-                     <a href="#" data-toggle="sub-menu"><h4 id="settings-title">Configurações</h4><img id="img-config" src="img/bx-cog.svg"
-                           alt="configuração"></a>
-                     <ul class="sub-menu" id="settings">
-                        <li class="menu-item"><a href="pages/login.html">Fazer Login</a></li>
-                        <li class="menu-item"><a href="#">Config 2</a></li>
-                        <li class="menu-item"><a href="#">Config 3</a></li>
-                        <li class="menu-item"><a href="#">Config 4</a></li>
-                     </ul>
+            <nav class="nav">
+               <ul>
+                  <li class="list active">
+                     <a href="#">
+                        <span class="icon"><ion-icon name="school-outline"></ion-icon></span>
+                        <span class="text">Matématica</span>
+                     </a>
                   </li>
                </ul>
+               <ul>
+                  <li class="list">
+                     <a href="#">
+                        <span class="icon"><ion-icon name="school-outline"></ion-icon></span>
+                        <span class="text">Física</span>
+                     </a>
+                  </li>
+               </ul>
+               <ul>
+                  <li class="list">
+                     <a href="#">
+                        <span class="icon"><ion-icon name="school-outline"></ion-icon></span>
+                        <span class="text">Química</span></a>
+                  </li>
+               </ul>
+               <ul>
+                  <li class="list">
+                     <a href="#">
+                        <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+                        <span class="text">Configurações</span></a>
+                  </li>
+                  <div class="indicator"></div>
+               </ul>
             </nav>
-            <!-- navigation menu end -->
          </div>
       </div>
    </header>
-  
+
    <section id="index">
       <main id="main">
          <div id="box-tittle">
@@ -123,7 +124,8 @@
          <div id="principal">
             <div class="prin-info" id="iconMedia">
                <a href=""><img class="icon-social" src="img/bx-phone-call.svg" alt="telefone"></a>
-               <a href="https://github.com/HenriqueChepli/Jornada-do-Saber"><img class="icon-social" src="img/bxl-github.svg" alt="github"></a>
+               <a href="https://github.com/HenriqueChepli/Jornada-do-Saber"><img class="icon-social"
+                     src="img/bxl-github.svg" alt="github"></a>
                <a href=""><img class="icon-social" src="img/bxl-instagram.svg" alt="instagram"></a>
             </div>
             <div class="prin-info">
@@ -150,6 +152,8 @@
       </div>
    </footer>
    <script src="js/global.js"></script>
+   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"> </script>
+   <script nomodule src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"> </script>
 </body>
 
 </html>
