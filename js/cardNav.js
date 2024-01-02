@@ -3,6 +3,19 @@ const fis = document.getElementById('cardFis');
 const qui = document.getElementById('cardQui');
 const con = document.getElementById('cardCon');
 
+/* Card Close */
+
+const btnClose = document.getElementById('close');
+
+function toggleClose() {
+  con.classList.remove('active');
+  nav.classList.remove('active');
+  fis.classList.remove('active');
+  qui.classList.remove('active');
+}
+
+btnClose.addEventListener('click', toggleClose);
+
 /* Card Matemática */
 
 const btnNav = document.getElementById('btn-cardMat');
