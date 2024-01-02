@@ -28,7 +28,6 @@ html{
 
 #index {
     user-select: none;
-    height: calc(100vh - 103px);
     width: 100%;
     padding: 15vh 0 0 0;
 	position: relative;
@@ -45,8 +44,8 @@ html{
 }
 
 .indexImg {
-	width: 43vw;
-	left: 80vh;
+	width: 700px;
+	left: 700px;
 	bottom: 18vh;
 	position: relative;
 	z-index: -10;
@@ -88,44 +87,23 @@ html{
 	user-select: none;
 }
 
-#title1{
-	background-color: #FFF;
-}
-
 @media(max-width:1500px) {
-	.indexImg {
-		left: 65vh;
-		bottom: 23vh;
-		width: 55vw;
-		height: 85vh;
-	}
-
 	#box-tittle {
 		width: 100vh;
 		height: 25vh;
 	}
 }
 
-@media(max-width:1350px) {
-	.indexImg {
-		left: 55vh;
-		bottom: 20vh;
-		width: 60vw;
-		height: 80vh;
-	}
-}
 
 @media(max-width:1250px) {
-	.indexImg {
-		left: 50vh;
-		bottom: 20vh;
-		width: 60vw;
-		height: 75vh;
-	}
 
-	#box-tittle {
-		width: 100vh;
-		height: 23vh;
+	.indexImg {
+		width: 600px;
+		left: 500px;
+		bottom: 18vh;
+		position: relative;
+		z-index: -10;
+		opacity: 85%;
 	}
 
 	#box-tittle {
@@ -152,22 +130,17 @@ html{
 	}
 }
 
-@media (max-width:1180px) {
-	.indexImg {
-		left: 45vh;
-		bottom: 15vh;
-		width: 65vw;
-		height: 70vh;
-	}
-}
-
 @media(max-width:1000px) {
+
 	.indexImg {
-		left: 27vh;
-		bottom: -10vh;
-		height: 75vh;
-		width: 75vw;
+		width: 600px;
+		left: 350px;
+		bottom: 18vh;
+		position: relative;
+		z-index: -10;
+		opacity: 85%;
 	}
+
 
 	#box-tittle {
 		width: 100vh;
@@ -196,12 +169,16 @@ html{
 }
 
 @media(max-width:830px){
-	.indexImg{
-		left: 13vh;
-		bottom: -20vh;
-		height: 70vh;
-		width: 85vw;
+
+	.indexImg {
+		width: 600px;
+		left: 250px;
+		bottom: 12vh;
+		position: relative;
+		z-index: -10;
+		opacity: 85%;
 	}
+
 
 	.subtitle {
 		width: 65vw;
@@ -209,7 +186,7 @@ html{
 	}
 
 	#box-tittle {
-		width: 100vh;
+		width: 100vw;
 		height: 25vh;
 	}
 
@@ -221,22 +198,21 @@ html{
 	.subtitle {
 		margin-left: 4vw;
 		font-size: 1.8vh;
-		width: 100%;
-	}
-
-	#index {
-		padding-top: 8vh;
 	}
 	
 }
 
 @media(max-width:700px){
-	.indexImg{
-		left: -0.5vh;
-		bottom: -20vh;
-		height: 70vh;
-		width: 100vw;
+
+	.indexImg {
+		width: 600px;
+		left: 50px;
+		bottom: 5vh;
+		position: relative;
+		z-index: -10;
+		opacity: 85%;
 	}
+
 
 	.title {
 		margin-left: 4vw;
@@ -246,6 +222,8 @@ html{
 	.subtitle {
 		margin-left: 4vw;
 		font-size: 1.8vh;
+		width: auto;
+		background-color: var(--bright-color);
 	}
 	
 }
@@ -253,10 +231,12 @@ html{
 @media(max-width:540px) {
 
 	.indexImg {
-		left: 0;
-		bottom: -25vh;
-		height: 60vh;
-		width: 100vw;
+		width: 500px;
+		left: 40px;
+		bottom: 0;
+		position: relative;
+		z-index: -10;
+		opacity: 85%;
 	}
 
     .subtitle {
@@ -286,10 +266,12 @@ html{
 @media(max-width:430px) {
 
 	.indexImg {
-		left: -5vh;
-		bottom: -20vh;
-		height: 60vh;
-		width: 125vw;
+		width: 500px;
+		left: 0;
+		bottom: 0;
+		position: relative;
+		z-index: -10;
+		opacity: 85%;
 	}
 
     .subtitle {
@@ -315,13 +297,6 @@ html{
 }
 
 @media(max-width:330px) {
-
-	.indexImg {
-		left: -4vh;
-		bottom: -18vh;
-		height: 55vh;
-		width: 120vw;
-	}
 
 	.title {
 		font-size: 5.5vh;

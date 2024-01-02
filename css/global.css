@@ -247,13 +247,14 @@ a{
 	border-top: 1.5px solid #0D0D0D;
 }
 
-#cardNav span{
+#cardNav a span{
 	font-size: 2em;
 	position: absolute;
-	top: 0;
+	top: -70px;
 	right: 0;
 	cursor: pointer;
 	transition: all .5s ease-in-out;
+	color: #0D0D0D;
 }
 
 #cardNav span:hover{
@@ -316,10 +317,11 @@ a{
 #cardFis span{
 	font-size: 2em;
 	position: absolute;
-	top: 0;
+	top: -70px;
 	right: 0;
 	cursor: pointer;
 	transition: all .5s ease-in-out;
+	color: #0D0D0D;
 }
 
 #cardFis span:hover{
@@ -379,13 +381,14 @@ a{
 	border-top: 1.5px solid #0D0D0D;
 }
 
-#cardQui span{
+#cardQui a span{
 	font-size: 2em;
 	position: absolute;
-	top: 0;
+	top: -70px;
 	right: 0;
 	cursor: pointer;
 	transition: all .5s ease-in-out;
+	color: #0D0D0D;
 }
 
 #cardQui span:hover{
@@ -445,13 +448,14 @@ a{
 	border-top: 1.5px solid #0D0D0D;
 }
 
-#cardCon span{
+#cardCon a span{
 	font-size: 2em;
 	position: absolute;
-	top: 0;
+	top: -70px;
 	right: 0;
 	cursor: pointer;
 	transition: all .5s ease-in-out;
+	color: #0D0D0D;
 }
 
 #cardCon span:hover{
@@ -578,6 +582,7 @@ a{
   .prin-info:hover{
 	transition: all 0.5s ease-in-out;
 	color: var(--rosaclaro-color);
+	user-select: none;
   }
 
   #iconMedia {
@@ -602,6 +607,7 @@ a{
   .nome-social{
 	color: var(--bright-color);
 	transition: .55s;
+	user-select: none;
   }
 
   .nome-social:hover{
@@ -758,34 +764,38 @@ a{
 }
 
 
-@media (max-width:450px) {
+@media (max-width:480px) {
 	  #infoID {
 		width: 3vh;
 	  }
 
 	  #cardCon{
 		top: -300%;
-		right: 120%;
+		right: 112%;
 		opacity: .95;
+		width: 280px;
 	}
 
 	#cardQui{
 		top: -200%;
-		right: 120%;
+		right: 112%;
 		opacity: .95;
+		width: 280px;
 	}
 
 	#cardFis{
 		top: -100%;
-		right: 120%;
+		right: 112%;
 		opacity: .95;
+		width: 280px;
 	}
 
 	#cardNav{
 		position: absolute;
 		top: 0;
-		right: 120%;
+		right: 112%;
 		opacity: .95;
+		width: 280px;
 	}
 
 }
@@ -830,5 +840,66 @@ a{
 	.container{
 		max-width: 100%;
 		margin: 0;
+	}
+
+	#cardCon{
+		top: -300%;
+		right: 112%;
+		opacity: .95;
+		width: 235px;
+	}
+
+	#cardCon h1{
+		font-size: 1.5em;
+	}
+
+	#cardCon ul li a{
+		font-size: .75em;
+	}
+
+	#cardQui{
+		top: -200%;
+		right: 112%;
+		opacity: .95;
+		width: 235px;
+	}
+
+	#cardQui h1{
+		font-size: 1.5em;
+	}
+
+	#cardQui ul li a{
+		font-size: .75em;
+	}
+
+	#cardFis{
+		top: -100%;
+		right: 112%;
+		opacity: .95;
+		width: 235px;
+	}
+
+	#cardFis h1{
+		font-size: 1.5em;
+	}
+
+	#cardFis ul li a{
+		font-size: .75em;
+	}
+
+	#cardNav{
+		position: absolute;
+		top: 0;
+		right: 112%;
+		opacity: .95;
+		width: 235px;
+	}
+
+	#cardNav h1{
+		font-size: 1.5em;
+	}
+
+	#cardNav ul li a{
+		font-size: .75em;
 	}
 }
