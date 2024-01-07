@@ -77,12 +77,11 @@ html{
 }
 
 .subtitle {
-    width: 100%;
 	font-size: 1.5vw;
 	letter-spacing: 0.3vw;
 	margin-left: 10vw;
 	color: var(--dark-color);
-    border-radius: 10px;
+    border-radius: 15px;
 	font-weight: 300;
 	user-select: none;
 }
@@ -257,7 +256,6 @@ html{
 	.subtitle {
 		margin-left: 4vw;
 		font-size: 1.5vh;
-		width: 100%;
 	}
 
 }
@@ -292,7 +290,6 @@ html{
 	.subtitle {
 		margin-left: 4vw;
 		font-size: 1.5vh;
-		width: 100%;
 	}
 }
 
