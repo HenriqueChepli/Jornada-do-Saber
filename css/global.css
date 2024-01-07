@@ -764,21 +764,18 @@ a{
 	  #cardCon{
 		top: -300%;
 		right: 112%;
-		opacity: .95;
 		width: 280px;
 	}
 
 	#cardQui{
 		top: -200%;
 		right: 112%;
-		opacity: .95;
 		width: 280px;
 	}
 
 	#cardFis{
 		top: -100%;
 		right: 112%;
-		opacity: .95;
 		width: 280px;
 	}
 
@@ -786,7 +783,6 @@ a{
 		position: absolute;
 		top: 0;
 		right: 112%;
-		opacity: .95;
 		width: 280px;
 	}
 
@@ -837,7 +833,6 @@ a{
 	#cardCon{
 		top: -300%;
 		right: 112%;
-		opacity: .95;
 		width: 235px;
 	}
 
@@ -852,7 +847,6 @@ a{
 	#cardQui{
 		top: -200%;
 		right: 112%;
-		opacity: .95;
 		width: 235px;
 	}
 
@@ -867,7 +861,6 @@ a{
 	#cardFis{
 		top: -100%;
 		right: 112%;
-		opacity: .95;
 		width: 235px;
 	}
 
@@ -883,7 +876,6 @@ a{
 		position: absolute;
 		top: 0;
 		right: 112%;
-		opacity: .95;
 		width: 235px;
 	}
 
