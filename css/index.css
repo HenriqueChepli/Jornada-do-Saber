@@ -82,6 +82,7 @@ html{
 	margin-left: 10vw;
 	color: var(--dark-color);
     border-radius: 5px;
+	padding: 2px
 	font-weight: 300;
 	user-select: none;
 }
