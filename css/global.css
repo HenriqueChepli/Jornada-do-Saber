@@ -672,26 +672,22 @@ a{
 	#cardCon{
 		top: -409%;
 		right: 120%;
-		opacity: .75;
 	}
 
 	#cardQui{
 		top: -280%;
 		right: 120%;
-		opacity: .75;
 	}
 
 	#cardFis{
 		top: -152%;
 		right: 120%;
-		opacity: .75;
 	}
 
 	#cardNav{
 		position: absolute;
 		top: -23%;
 		right: 120%;
-		opacity: .75;
 	}
 
 }
@@ -740,26 +736,22 @@ a{
 	#cardCon{
 		top: -300%;
 		right: 120%;
-		opacity: .85;
 	}
 
 	#cardQui{
 		top: -200%;
 		right: 120%;
-		opacity: .85;
 	}
 
 	#cardFis{
 		top: -100%;
 		right: 120%;
-		opacity: .85;
 	}
 
 	#cardNav{
 		position: absolute;
 		top: 0;
 		right: 120%;
-		opacity: .85;
 	}
 }
 
