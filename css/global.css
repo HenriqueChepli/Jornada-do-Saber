@@ -243,8 +243,8 @@ a{
 }
 
 #cardNav ul li:nth-child(2){
-	border-bottom: 1.5px solid #2f2d38;
-	border-top: 1.5px solid #2f2d38;
+	border-bottom: 1.5px solid rgba(0,0,0,0.55);
+	border-top: 1.5px solid rgba(0,0,0,0.55);
 }
 
 #cardNav a span{
