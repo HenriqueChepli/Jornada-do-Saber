@@ -221,33 +221,32 @@ a{
 	z-index: 1000;
 }
 
-#cardNav h1{
+.allCards h1{
 	font-size: 2.1em;
 	margin: 0 0 10px 0;
 	transition: all .55s ease-in-out;
 	user-select: none;
 }
 
-#cardNav h1:hover{
+.allCards h1:hover{
 	color: #e91e63;
 }
 
-#cardNav ul li a{
+.allCards ul li a{
 	font-size: 1.1em;
 	padding: 10px 0;
 	color: #0D0D0D;
 }
 
-#cardNav ul li a:hover{
+.allCards ul li a:hover{
 	background-color: rgba(0, 0, 0, .05);
 }
 
-#cardNav ul li:nth-child(2){
-	border-bottom: 1.5px solid rgba(0,0,0,0.15);
-	border-top: 1.5px solid rgba(0,0,0,0.15);
+.allCards ul li{
+	border-bottom: 1.5px solid rgba(0,0,0,0.1);
 }
 
-#cardNav a span{
+.allCards a span{
 	font-size: 2em;
 	position: absolute;
 	top: -70px;
@@ -257,8 +256,28 @@ a{
 	color: #0D0D0D;
 }
 
-#cardNav span:hover{
+.allCards span:hover{
 	color: #e91e63;
+}
+
+.allCards h5{
+	user-select: none;
+	margin: 5px 80px 0px 80px;
+	padding: 0 0 2.5px 0;
+	border-bottom: 1.5px solid #e91e63;
+}
+
+.allCards .linkAjuda{
+	font-weight: 900;
+	color: #0D0D0D;
+	font-size: .65em;
+	margin: 10px 0 0 0;
+	transition: all .5s ease-in-out
+}
+
+.allCards .linkAjuda:hover{
+	color: #e91e63;
+	transform: scale(1.1);
 }
 
 #cardNav.active{
@@ -288,46 +307,6 @@ a{
 	z-index: 1000;
 }
 
-#cardFis h1{
-	font-size: 2.1em;
-	margin: 0 0 10px 0;
-	transition: all .55s ease-in-out;
-	user-select: none;
-}
-
-#cardFis h1:hover{
-	color: #e91e63;
-}
-
-#cardFis ul li a{
-	font-size: 1.1em;
-	padding: 10px 0;
-	color: #0D0D0D;
-}
-
-#cardFis ul li a:hover{
-	background-color: rgba(0, 0, 0, .05);
-}
-
-#cardFis ul li:nth-child(2){
-	border-bottom: 1.5px solid rgba(0,0,0,0.15);
-	border-top: 1.5px solid rgba(0,0,0,0.15);
-}
-
-#cardFis span{
-	font-size: 2em;
-	position: absolute;
-	top: -70px;
-	right: 0;
-	cursor: pointer;
-	transition: all .5s ease-in-out;
-	color: #0D0D0D;
-}
-
-#cardFis span:hover{
-	color: #e91e63;
-}
-
 #cardFis.active{
 	display: block;
 	height: auto;
@@ -355,46 +334,6 @@ a{
 	z-index: 1000;
 }
 
-#cardQui h1{
-	font-size: 2.1em;
-	margin: 0 0 10px 0;
-	transition: all .55s ease-in-out;
-	user-select: none;
-}
-
-#cardQui h1:hover{
-	color: #e91e63;
-}
-
-#cardQui ul li a{
-	font-size: 1.1em;
-	padding: 10px 0;
-	color: #0D0D0D;
-}
-
-#cardQui ul li a:hover{
-	background-color: rgba(0, 0, 0, .05);
-}
-
-#cardQui ul li:nth-child(2){
-	border-bottom: 1.5px solid rgba(0,0,0,0.15);
-	border-top: 1.5px solid rgba(0,0,0,0.15);
-}
-
-#cardQui a span{
-	font-size: 2em;
-	position: absolute;
-	top: -70px;
-	right: 0;
-	cursor: pointer;
-	transition: all .5s ease-in-out;
-	color: #0D0D0D;
-}
-
-#cardQui span:hover{
-	color: #e91e63;
-}
-
 #cardQui.active{
 	display: block;
 	height: auto;
@@ -420,46 +359,6 @@ a{
 	overflow: hidden;
 	transition: .6s;
 	z-index: 1000;
-}
-
-#cardCon h1{
-	font-size: 2.1em;
-	margin: 0 0 10px 0;
-	transition: all .55s ease-in-out;
-	user-select: none;
-}
-
-#cardCon h1:hover{
-	color: #e91e63;
-}
-
-#cardCon ul li a{
-	font-size: 1.1em;
-	padding: 10px 0;
-	color: #0D0D0D;
-}
-
-#cardCon ul li a:hover{
-	background-color: rgba(0, 0, 0, .05);
-}
-
-#cardCon ul li:nth-child(2){
-	border-bottom: 1.5px solid rgba(0,0,0,0.15);
-	border-top: 1.5px solid rgba(0,0,0,0.15);
-}
-
-#cardCon a span{
-	font-size: 2em;
-	position: absolute;
-	top: -70px;
-	right: 0;
-	cursor: pointer;
-	transition: all .5s ease-in-out;
-	color: #0D0D0D;
-}
-
-#cardCon span:hover{
-	color: #e91e63;
 }
 
 #cardCon.active{
@@ -786,6 +685,15 @@ a{
 		width: 280px;
 	}
 
+	.allCards h5{
+		font-size: .75em;
+		margin: 5px 60px 0px 60px;
+	}
+
+	.allCards .linkAjuda{
+		font-size: .5em;
+	}
+
 }
 
 @media (max-width:380px) {
@@ -836,11 +744,11 @@ a{
 		width: 235px;
 	}
 
-	#cardCon h1{
+	.allCards h1{
 		font-size: 1.5em;
 	}
 
-	#cardCon ul li a{
+	.allCards ul li a{
 		font-size: .75em;
 	}
 
@@ -850,26 +758,10 @@ a{
 		width: 235px;
 	}
 
-	#cardQui h1{
-		font-size: 1.5em;
-	}
-
-	#cardQui ul li a{
-		font-size: .75em;
-	}
-
 	#cardFis{
 		top: -100%;
 		right: 112%;
 		width: 235px;
-	}
-
-	#cardFis h1{
-		font-size: 1.5em;
-	}
-
-	#cardFis ul li a{
-		font-size: .75em;
 	}
 
 	#cardNav{
@@ -879,11 +771,12 @@ a{
 		width: 235px;
 	}
 
-	#cardNav h1{
-		font-size: 1.5em;
+	.allCards h5{
+		font-size: .58em;
+		margin: 5px 50px 0px 50px;
 	}
 
-	#cardNav ul li a{
-		font-size: .75em;
+	.allCards .linkAjuda{
+		font-size: .45em;
 	}
 }
