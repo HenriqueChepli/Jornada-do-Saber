@@ -212,7 +212,7 @@ a{
 	justify-content: center;
 	align-items: center;
 	border-radius: 10px;
-	padding: 15px 0;
+	padding: 15px 0 0 0;
 	font-weight: 400;
 	margin: 15px 0 0 0;
 	visibility: hidden;
@@ -242,8 +242,9 @@ a{
 	background-color: rgba(0, 0, 0, .05);
 }
 
-.allCards ul li{
+.allCards ul li:nth-child(2){
 	border-bottom: 1.5px solid rgba(0,0,0,0.1);
+	border-top: 1.5px solid rgba(0,0,0,0.1);
 }
 
 .allCards a span{
@@ -260,14 +261,19 @@ a{
 	color: #e91e63;
 }
 
-.allCards h5{
+.allCards .divAjuda{
+	background-color: rgba(0, 0, 0, .05);
+	padding: 10px;
+}
+
+.allCards .divAjuda h5{
 	user-select: none;
 	margin: 5px 80px 0px 80px;
 	padding: 0 0 2.5px 0;
 	border-bottom: 1.5px solid #e91e63;
 }
 
-.allCards .linkAjuda{
+.allCards .divAjuda .linkAjuda{
 	font-weight: 900;
 	color: #0D0D0D;
 	font-size: .65em;
@@ -275,7 +281,7 @@ a{
 	transition: all .5s ease-in-out
 }
 
-.allCards .linkAjuda:hover{
+.allCards .divAjuda .linkAjuda:hover{
 	color: #e91e63;
 	transform: scale(1.1);
 }
@@ -298,7 +304,7 @@ a{
 	justify-content: center;
 	align-items: center;
 	border-radius: 10px;
-	padding: 15px 0;
+	padding: 15px 0 0 0;
 	font-weight: 400;
 	margin: 15px 0 0 0;
 	visibility: hidden;
@@ -325,7 +331,7 @@ a{
 	justify-content: center;
 	align-items: center;
 	border-radius: 10px;
-	padding: 15px 0;
+	padding: 15px 0 0 0;
 	font-weight: 400;
 	margin: 15px 0 0 0;
 	visibility: hidden;
@@ -352,7 +358,7 @@ a{
 	justify-content: center;
 	align-items: center;
 	border-radius: 10px;
-	padding: 15px 0;
+	padding: 15px 0 0 0;
 	font-weight: 400;
 	margin: 15px 0 0 0;
 	visibility: hidden;
