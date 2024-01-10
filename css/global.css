@@ -691,12 +691,12 @@ a{
 		width: 280px;
 	}
 
-	.allCards h5{
+	.allCards .divAjuda h5{
 		font-size: .75em;
 		margin: 5px 60px 0px 60px;
 	}
 
-	.allCards .linkAjuda{
+	.allCards .divAjuda .linkAjuda{
 		font-size: .5em;
 	}
 
@@ -777,12 +777,12 @@ a{
 		width: 235px;
 	}
 
-	.allCards h5{
+	.allCards .divAjuda h5{
 		font-size: .58em;
 		margin: 5px 50px 0px 50px;
 	}
 
-	.allCards .linkAjuda{
+	.allCards .divAjuda .linkAjuda{
 		font-size: .45em;
 	}
 }
