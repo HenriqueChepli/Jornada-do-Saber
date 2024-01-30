@@ -16,6 +16,10 @@
     --rosaclaro-color: #e91e63;
   }
 
+  body{
+	overflow-x: hidden;
+  }
+
   #main {
 	position: relative;
 	width: 100%;
@@ -41,7 +45,7 @@
 
 .indexImg {
 	width: 700px;
-	left: 700px;
+	right: -50%;
 	bottom: 18vh;
 	position: relative;
 	z-index: -10;
