@@ -154,6 +154,7 @@ a{
 	border-radius: 50%;
 	border: 6px solid #fff;
 	transition: .5s;
+	display: none;
 }
 
 .indicator::before {
@@ -180,19 +181,19 @@ a{
 	box-shadow: 0 -10px 0 0 #fff;
 }
 
-.nav ul li:nth-child(1).active ~ .indicator{
+.nav ul li:nth-child(1).active .indicator{
 	transform: translateX(calc(70px * 0));
 }
 
-.nav ul li:nth-child(2).active ~ .indicator{
+.nav ul li:nth-child(2).active .indicator{
 	transform: translateX(calc(70px * 1));
 }
 
-.nav ul li:nth-child(3).active ~ .indicator{
+.nav ul li:nth-child(3).active .indicator{
 	transform: translateX(calc(70px * 2));
 }
 
-.nav ul li:nth-child(4).active ~ .indicator{
+.nav ul li:nth-child(4).active .indicator{
 	transform: translateX(calc(70px * 3));
 }
 
