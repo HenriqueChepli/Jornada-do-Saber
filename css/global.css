@@ -92,7 +92,6 @@ a{
 	gap: 20px;
 	padding: 0 20px;
 	border-radius: 10px;
-	box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
 .nav ul .list {
@@ -153,8 +152,12 @@ a{
 	background-color: #e91e63;
 	border-radius: 50%;
 	border: 6px solid #fff;
-	transition: .5s;
-	display: none;
+	transition: all .5s ease-in-out;
+	opacity: 0;
+}
+
+.list.active .indicator{
+	opacity: 1;
 }
 
 .indicator::before {
