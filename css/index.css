@@ -16,7 +16,7 @@
     --rosaclaro-color: #e91e63;
   }
 
-  body{
+  html, body{
 	overflow-x: hidden;
   }
 
