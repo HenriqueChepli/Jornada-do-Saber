@@ -594,6 +594,10 @@ a{
 		right: 120%;
 	}
 
+	.indicator{
+		visibility: hidden;
+	}
+
 }
 
 @media (max-width:740px) {
