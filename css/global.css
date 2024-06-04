@@ -123,7 +123,7 @@ a{
 	color: #0D0D0D;
 }
 
-.nav ul li.active a .icon {
+.nav ul li:hover a .icon {
 	transform: translateY(-32px);
 	color: #fff;
 }
@@ -139,7 +139,7 @@ a{
 	transform: translateY(20px);
 }
 
-.nav ul li.active a .text {
+.nav ul li:hover a .text {
 	opacity: 1;
 	transform: translateY(10px);
 }
@@ -156,7 +156,7 @@ a{
 	opacity: 0;
 }
 
-.list.active .indicator{
+.list:hover .indicator{
 	opacity: 1;
 }
 
@@ -184,19 +184,19 @@ a{
 	box-shadow: 0 -10px 0 0 #fff;
 }
 
-.nav ul li:nth-child(1).active .indicator{
+.nav ul li:nth-child(1):hover .indicator{
 	transform: translateX(calc(70px * 0));
 }
 
-.nav ul li:nth-child(2).active .indicator{
+.nav ul li:nth-child(2):hover .indicator{
 	transform: translateX(calc(70px * 1));
 }
 
-.nav ul li:nth-child(3).active .indicator{
+.nav ul li:nth-child(3):hover .indicator{
 	transform: translateX(calc(70px * 2));
 }
 
-.nav ul li:nth-child(4).active .indicator{
+.nav ul li:nth-child(4):hover .indicator{
 	transform: translateX(calc(70px * 3));
 }
 
@@ -285,7 +285,7 @@ a{
 	transform: scale(1.1);
 }
 
-#cardNav.active{
+#cardNav:hover{
 	display: block;
 	height: auto;
 	visibility: visible;
@@ -339,7 +339,7 @@ a{
 	z-index: 1000;
 }
 
-#cardQui.active{
+#cardQui:hover{
 	display: block;
 	height: auto;
 	visibility: visible;
@@ -366,7 +366,7 @@ a{
 	z-index: 1000;
 }
 
-#cardCon.active{
+#cardCon:hover{
 	display: block;
 	height: auto;
 	visibility: visible;
@@ -565,7 +565,7 @@ a{
 		border-radius: 10px;
 		flex-direction: column;
 	}
-	.nav ul li.active a .icon {
+	.nav ul li:hover a .icon {
 		transform: translateY(-22px);
 		color: #0D0D0D;
 	}
