@@ -285,7 +285,7 @@ a{
 	transform: scale(1.1);
 }
 
-#cardNav:hover{
+#cardNav.active{
 	display: block;
 	height: auto;
 	visibility: visible;
@@ -339,7 +339,7 @@ a{
 	z-index: 1000;
 }
 
-#cardQui:hover{
+#cardQui.active{
 	display: block;
 	height: auto;
 	visibility: visible;
@@ -366,7 +366,7 @@ a{
 	z-index: 1000;
 }
 
-#cardCon:hover{
+#cardCon.active{
 	display: block;
 	height: auto;
 	visibility: visible;
